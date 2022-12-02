@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-ios-copy-outline
+    title : Embroidery
+    description : >
+      Embroider your company crest on T-shirts, polo shirts, ties, scarves, fleeces, sweat shirts any fabric item that you choose.
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : Screen printing
+    description : >
+      Alternatively you can screen print your message or logo onto a wide range of clothing and other items. You choose and we’ll help you to design something that makes the impact you need.
+
+  - icon  : tf-ion-ios-book-outline
+    title : Own label branding
+    description : >
+      Get your own label, if you want clothes with your very own label you can use our re-labelling service. The existing label is cut out or un-picked and your new label sewn in. You can choose the label style you want from an extensive range of labels that are woven or printed. These will be made especially for you.

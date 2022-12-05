@@ -7,13 +7,16 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
-  font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*=== MEDIA QUERY ===*/
@@ -468,7 +471,7 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #3a3565;
 }
 
 .select-language a {
@@ -504,7 +507,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > .nav-link {
-  color: #b6b8bb;
+  color: #fff;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -585,6 +588,10 @@ a:focus, a:hover {
   padding: 8px 0;
 }
 
+.navbar-brand img {
+  width: 400px;
+}
+
 .navbar-brand h1 {
   margin: 0;
 }
@@ -601,7 +608,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  background: #5F58A0;
 }
 
 @media (max-width: 480px) {
@@ -627,7 +634,6 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
   margin-bottom: 20px;
 }
 
@@ -1726,9 +1732,10 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #222222;
+  background-color: #5f58a0;
   border-top: 1px solid #404040;
   padding: 100px 0 80px;
+  color: #fff;
 }
 
 .top-footer h3 {
@@ -1744,7 +1751,6 @@ a:focus, a:hover {
 .top-footer p {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
   font-weight: 300;
   padding-right: 20px;
 }
@@ -1752,7 +1758,7 @@ a:focus, a:hover {
 .top-footer li a {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
+  color: currentColor;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -1767,15 +1773,16 @@ a:focus, a:hover {
 
 .footer-bottom {
   text-align: center;
-  background-color: #1b1b1b;
+  background-color: #3a3565;
   border-top: 1px solid #2c2c2c;
   padding: 30px 0;
+  color: #fff;
 }
 
 .footer-bottom h5 {
   font-size: 14px;
   line-height: 1;
-  color: #888888;
+  color: currentColor;
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 7px;
@@ -1785,7 +1792,7 @@ a:focus, a:hover {
 .footer-bottom h6 {
   font-size: 13px;
   line-height: 15px;
-  color: #888888;
+  color: currentColor;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -1793,7 +1800,7 @@ a:focus, a:hover {
 }
 
 .footer-bottom p {
-  color: #656565;
+  color: currentColor;
 }
 
 .footer-bottom a {

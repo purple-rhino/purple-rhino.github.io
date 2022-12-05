@@ -454,7 +454,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #1f2532;
+  background: var(--brand-primary);
   padding: 50px 0;
   text-align: center;
   color: #fff;
@@ -472,6 +472,10 @@ a:focus, a:hover {
 
 .single-page-header .breadcrumb li a {
   color: #f0326b;
+}
+
+.single-page-header .breadcrumb-item.active {
+  color: currentColor;
 }
 
 .navigation {
